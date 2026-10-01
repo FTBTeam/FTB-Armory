@@ -1,14 +1,13 @@
-# FTB (Modpack Name) Companion
+# FTB Armory
 
-TODO: Fill me out :D
+Three post-netherite metals for FTB Evolution 2: Adamantite, Aeternium and Aurichalcum.
 
-## About `'Companion'` mods
+- Ores in the Overworld (Adamantite), the Nether (Aeternium) and the End (Aurichalcum), with raw ores, storage blocks, ingots, nuggets, dusts, plates, gears, rods and wires
+- Swords, spears, pickaxes, axes, shovels, hoes, AIOTs and armor for each metal, made by upgrading netherite gear at a smithing table
+- Aurichalcum gear is unbreakable, and Aurichalcum ore can only be mined with FTB Armory tools
+- With GeckoLib installed, the armor uses its own 3D models
 
-FTB `{Modpack Name}` Companion mods are custom tailored, bespoke mods designed to work hand-in-hand with a specific FTB Modpack. Although these mores are visible source and released to CurseForge, we **do not** recommend the use of these mods inside other modpacks. 
-
-Please feel free to contribute to these projects but **always** open an issue first before opening feature specific pull requests.
-
-Companion mods are provided `as is`. If you opt to use these mods inside another modpack. We **will not** provide support and any issues opened regarding problems due to use in another modpack will be closed!
+Built for Minecraft 26.1.2 and NeoForge. GeckoLib is optional.
 
 ## Support
 
@@ -19,7 +18,3 @@ Companion mods are provided `as is`. If you opt to use these mods inside another
 ## Licence
 
 All Rights Reserved to Feed The Beast Ltd. Source code is `visible source`, please see our [LICENSE.md](/LICENSE.md) for more information. Any Pull Requests made to this mod must have the CLA (Contributor Licence Agreement) signed and agreed to before the request will be considered.
-
-## Keep up to date
-
-[![FTB Socials](https://cdn.feed-the-beast.com/assets/socials/icons/socials-scaled-cf.webp?ref=curseforge)](https://feed-the-beast.com/links)

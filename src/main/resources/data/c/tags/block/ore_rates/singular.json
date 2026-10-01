@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ftbarmory:adamantite_stone_ore",
+    "ftbarmory:adamantite_deepslate_ore",
+    "ftbarmory:aeternium_nether_ore",
+    "ftbarmory:aurichalcum_end_ore"
+  ]
+}

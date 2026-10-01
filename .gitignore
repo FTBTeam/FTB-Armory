@@ -5,6 +5,7 @@ bin
 .metadata
 .classpath
 .project
+src/generated/resources/.cache
 
 # idea
 out
@@ -26,5 +27,20 @@ logs
 # other
 eclipse
 run
-.vscode
+run_server
 runs
+.vscode
+tools/
+
+# markdown
+*.md
+*.MD
+!README.md
+!README.MD
+!LICENSE.md
+!LICENSE.MD
+!CHANGELOG.md
+!metadata/changelogs/*.md
+!metadata/changelogs/*.MD
+!docs/*.md
+!docs/*.MD

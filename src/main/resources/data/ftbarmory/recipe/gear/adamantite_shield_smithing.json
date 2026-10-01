@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:shield",
+  "addition": "#c:ingots/adamantite",
+  "result": {
+    "id": "ftbarmory:adamantite_shield"
+  }
+}

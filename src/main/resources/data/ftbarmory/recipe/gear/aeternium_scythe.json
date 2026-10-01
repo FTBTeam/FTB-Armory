@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "  R",
+    " R "
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium",
+    "R": "#c:rods/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_scythe"
+  }
+}

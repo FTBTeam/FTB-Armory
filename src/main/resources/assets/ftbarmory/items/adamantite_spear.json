@@ -17,8 +17,11 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "ftbarmory:item/adamantite_spear_in_hand"
+      "type": "minecraft:special",
+      "base": "ftbarmory:item/adamantite_spear_in_hand",
+      "model": {
+        "type": "geckolib:geckolib"
+      }
     }
   },
   "swap_animation_scale": 1.95

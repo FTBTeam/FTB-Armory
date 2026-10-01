@@ -30,7 +30,7 @@ run
 run_server
 runs
 .vscode
-tools/
+/tools/
 
 # markdown
 *.md

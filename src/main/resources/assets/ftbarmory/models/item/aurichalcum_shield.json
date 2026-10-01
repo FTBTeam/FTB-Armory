@@ -1,0 +1,143 @@
+{
+  "textures": {
+    "particle": "ftbarmory:item/aurichalcum_shield"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        10,
+        6,
+        -4
+      ],
+      "scale": [
+        0.6667,
+        0.6667,
+        0.6667
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        10,
+        6,
+        12
+      ],
+      "scale": [
+        0.6667,
+        0.6667,
+        0.6667
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        5
+      ],
+      "translation": [
+        -10,
+        1.75,
+        -10
+      ],
+      "scale": [
+        0.8333,
+        0.8333,
+        0.8333
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        5
+      ],
+      "translation": [
+        10,
+        0,
+        -10
+      ],
+      "scale": [
+        0.8333,
+        0.8333,
+        0.8333
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -25,
+        -5
+      ],
+      "translation": [
+        2,
+        3,
+        0
+      ],
+      "scale": [
+        0.4333,
+        0.4333,
+        0.4333
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        -4.5,
+        4.5,
+        -5
+      ],
+      "scale": [
+        0.3667,
+        0.3667,
+        0.3667
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        11,
+        18.5,
+        8.7
+      ],
+      "scale": [
+        0.9333,
+        0.9333,
+        0.9333
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        2,
+        4,
+        2
+      ],
+      "scale": [
+        0.1667,
+        0.1667,
+        0.1667
+      ]
+    }
+  }
+}

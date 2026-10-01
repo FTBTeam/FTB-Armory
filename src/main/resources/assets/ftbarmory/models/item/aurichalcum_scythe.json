@@ -1,0 +1,143 @@
+{
+  "textures": {
+    "particle": "ftbarmory:item/aurichalcum_scythe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        10
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.568,
+        0.568,
+        0.568
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -100
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.568,
+        0.568,
+        0.568
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        -20
+      ],
+      "translation": [
+        1.13,
+        -0.5,
+        1.13
+      ],
+      "scale": [
+        0.3862,
+        0.3862,
+        0.3862
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -70
+      ],
+      "translation": [
+        1.13,
+        -0.5,
+        1.13
+      ],
+      "scale": [
+        0.3862,
+        0.3862,
+        0.3862
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "translation": [
+        -2.719,
+        -3.884,
+        0.0
+      ],
+      "scale": [
+        0.3719,
+        0.3719,
+        0.3719
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        45
+      ],
+      "translation": [
+        -3.884,
+        -2.719,
+        -0.0
+      ],
+      "scale": [
+        0.3719,
+        0.3719,
+        0.3719
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        1.71,
+        -0.105,
+        0.0
+      ],
+      "scale": [
+        0.2263,
+        0.2263,
+        0.2263
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "translation": [
+        -2.719,
+        -3.884,
+        0.0
+      ],
+      "scale": [
+        0.3719,
+        0.3719,
+        0.3719
+      ]
+    }
+  }
+}

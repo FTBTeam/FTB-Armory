@@ -1,6 +1,9 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "ftbarmory:item/aurichalcum_sword"
+    "type": "minecraft:special",
+    "base": "ftbarmory:item/aurichalcum_sword",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
   }
 }

@@ -1,6 +1,9 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "ftbarmory:item/aeternium_sword"
+    "type": "minecraft:special",
+    "base": "ftbarmory:item/aeternium_sword",
+    "model": {
+      "type": "geckolib:geckolib"
+    }
   }
 }

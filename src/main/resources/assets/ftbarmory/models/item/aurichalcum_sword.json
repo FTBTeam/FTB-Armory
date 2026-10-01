@@ -1,6 +1,126 @@
 {
-  "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "ftbarmory:item/aurichalcum_sword"
+    "particle": "ftbarmory:item/aurichalcum_sword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        -60
+      ],
+      "translation": [
+        -2.0,
+        3.105,
+        4.45
+      ],
+      "scale": [
+        0.3726,
+        0.3726,
+        0.3726
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        60
+      ],
+      "translation": [
+        -2.0,
+        3.105,
+        4.45
+      ],
+      "scale": [
+        0.3726,
+        0.3726,
+        0.3726
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -10,
+        -70,
+        20
+      ],
+      "translation": [
+        -1.433,
+        0.505,
+        0.273
+      ],
+      "scale": [
+        0.2981,
+        0.2981,
+        0.2981
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -10,
+        -70,
+        20
+      ],
+      "translation": [
+        -1.433,
+        0.505,
+        0.273
+      ],
+      "scale": [
+        0.2981,
+        0.2981,
+        0.2981
+      ]
+    },
+    "gui": {
+      "rotation": [
+        20,
+        -30,
+        -45
+      ],
+      "translation": [
+        -4.3,
+        -4.3,
+        0
+      ],
+      "scale": [
+        0.36,
+        0.36,
+        0.36
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        0.22
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        -45
+      ],
+      "translation": [
+        4.3,
+        -4.3,
+        0
+      ],
+      "scale": [
+        0.36,
+        0.36,
+        0.36
+      ]
+    }
   }
 }

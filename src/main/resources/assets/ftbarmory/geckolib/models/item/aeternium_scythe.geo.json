@@ -6,11 +6,11 @@
 				"identifier": "geometry.aeternium_scythe",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 2.2,
-				"visible_bounds_height": 3.54,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4,
 				"visible_bounds_offset": [
 					0,
-					0.57,
+					1,
 					0
 				]
 			},
@@ -1109,7 +1109,7 @@
 						{
 							"origin": [
 								-0.8,
-								30.5,
+								30.75,
 								-0.8
 							],
 							"size": [
@@ -1119,7 +1119,92 @@
 							],
 							"pivot": [
 								0,
-								32,
+								32.25,
+								0
+							],
+							"rotation": [
+								0,
+								-45,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										16,
+										45
+									],
+									"uv_size": [
+										2,
+										3
+									]
+								},
+								"east": {
+									"uv": [
+										14,
+										45
+									],
+									"uv_size": [
+										2,
+										3
+									]
+								},
+								"south": {
+									"uv": [
+										20,
+										45
+									],
+									"uv_size": [
+										2,
+										3
+									]
+								},
+								"west": {
+									"uv": [
+										18,
+										45
+									],
+									"uv_size": [
+										2,
+										3
+									]
+								},
+								"up": {
+									"uv": [
+										18,
+										45
+									],
+									"uv_size": [
+										-2,
+										-2
+									]
+								},
+								"down": {
+									"uv": [
+										20,
+										45
+									],
+									"uv_size": [
+										-2,
+										-2
+									]
+								}
+							}
+						},
+						{
+							"origin": [
+								-0.8,
+								29.75,
+								-0.8
+							],
+							"size": [
+								1.6,
+								3,
+								1.6
+							],
+							"inflate": -0.01,
+							"pivot": [
+								0,
+								31.25,
 								0
 							],
 							"rotation": [

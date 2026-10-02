@@ -6,11 +6,11 @@
 				"identifier": "geometry.adamantite_spear",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 1.12,
-				"visible_bounds_height": 3.33,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
 				"visible_bounds_offset": [
 					0,
-					0.0,
+					0.5,
 					0
 				]
 			},

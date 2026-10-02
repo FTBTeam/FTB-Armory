@@ -6,11 +6,11 @@
 				"identifier": "geometry.aeternium_spear",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 1.11,
-				"visible_bounds_height": 3.37,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4,
 				"visible_bounds_offset": [
 					0,
-					-0.04,
+					1,
 					0
 				]
 			},
@@ -520,12 +520,12 @@
 						{
 							"origin": [
 								-1.8,
-								10.5,
+								9.5,
 								-0.35
 							],
 							"size": [
 								3.6,
-								10,
+								11,
 								0.7
 							],
 							"uv": {

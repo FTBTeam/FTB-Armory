@@ -63,7 +63,7 @@ public final class ModItems {
     private static final List<ArmorType> ARMOR_TYPES =
             List.of(ArmorType.HELMET, ArmorType.CHESTPLATE, ArmorType.LEGGINGS, ArmorType.BOOTS);
 
-    private static final Set<Metal> GLOWING_GEAR = EnumSet.of(Metal.AETERNIUM);
+    private static final Set<Metal> GLOWING_GEAR = EnumSet.of(Metal.ADAMANTITE, Metal.AETERNIUM, Metal.AURICHALCUM);
     private static final Set<Metal> JSON_MODEL_SHIELDS = EnumSet.of(Metal.AETERNIUM);
 
     private static final List<DeferredItem<? extends Item>> MATERIALS = new ArrayList<>();

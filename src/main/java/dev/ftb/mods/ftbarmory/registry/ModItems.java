@@ -77,6 +77,17 @@ public final class ModItems {
                         ITEMS.registerItem(metal.id() + "_" + type, Item::new, Item.Properties::fireResistant),
                         OLD_MATERIAL_NAMESPACE));
             }
+            for (String equipment :
+                    List.of("pickaxe", "axe", "sword", "hoe", "helmet", "chestplate", "leggings", "boots")) {
+                MATERIALS.add(ITEMS.registerItem(
+                        metal.id() + "_" + equipment + "_upgrade_component",
+                        Item::new,
+                        Item.Properties::fireResistant));
+            }
+            if (metal == Metal.AURICHALCUM) {
+                MATERIALS.add(ITEMS.registerItem(
+                        "aurichalcum_aiot_upgrade_component", Item::new, Item.Properties::fireResistant));
+            }
             tools(metal);
             armor(metal);
             shield(metal);

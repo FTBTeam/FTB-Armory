@@ -2,8 +2,10 @@ package dev.ftb.mods.ftbarmory.registry;
 
 import dev.ftb.mods.ftbarmory.FTBArmory;
 import dev.ftb.mods.ftbarmory.common.Metal;
+import dev.ftb.mods.ftbarmory.common.block.ProtectedOreBlock;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.BlockItem;
@@ -37,6 +39,7 @@ public final class ModBlocks {
             for (Metal.Ore ore : metal.ores()) {
                 ORE_ITEMS.add(registerBlock(
                         metal.id() + "_" + ore.suffix(),
+                        ProtectedOreBlock::new,
                         props -> props.mapColor(ore.color())
                                 .strength(ore.hardness(), 12.0F)
                                 .requiresCorrectToolForDrops()
@@ -49,7 +52,14 @@ public final class ModBlocks {
 
     private static DeferredItem<BlockItem> registerBlock(
             String name, UnaryOperator<BlockBehaviour.Properties> properties) {
-        DeferredBlock<Block> block = BLOCKS.registerBlock(name, Block::new, properties);
+        return registerBlock(name, Block::new, properties);
+    }
+
+    private static DeferredItem<BlockItem> registerBlock(
+            String name,
+            Function<BlockBehaviour.Properties, Block> factory,
+            UnaryOperator<BlockBehaviour.Properties> properties) {
+        DeferredBlock<Block> block = BLOCKS.registerBlock(name, factory, properties);
         BLOCKS.addAlias(Identifier.fromNamespaceAndPath(ModItems.OLD_MATERIAL_NAMESPACE, name), block.getId());
         DeferredItem<BlockItem> item = ModItems.ITEMS.registerItem(
                 name,

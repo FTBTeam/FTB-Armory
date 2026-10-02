@@ -9,6 +9,7 @@ public final class ModTags {
     public static final TagKey<Block> NEEDS_ADAMANTITE_TOOL = block("needs_adamantite_tool");
     public static final TagKey<Block> INCORRECT_FOR_ADAMANTITE_TOOL = block("incorrect_for_adamantite_tool");
     public static final TagKey<Block> MINEABLE_AIOT = block("mineable/aiot");
+    public static final TagKey<Block> PROTECTED_ORES = block("protected_ores");
 
     private ModTags() {}
 

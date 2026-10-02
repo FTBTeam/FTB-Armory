@@ -4,7 +4,8 @@
   "package": "dev.ftb.mods.ftbarmory.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "SmithingMenuMixin"
+    "FtbicDiggingMixin",
+    "FtbicQuarryMixin"
   ],
   "injectors": {
     "defaultRequire": 1

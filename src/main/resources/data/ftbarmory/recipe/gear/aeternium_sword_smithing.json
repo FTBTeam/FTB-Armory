@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": "minecraft:netherite_sword",
   "addition": "#c:ingots/aeternium",
   "result": {
     "id": "ftbarmory:aeternium_sword"
-  }
+  },
+  "addition_count": 2
 }

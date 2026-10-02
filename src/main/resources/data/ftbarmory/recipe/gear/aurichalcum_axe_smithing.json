@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": [
     "ftbarmory:adamantite_axe",
@@ -8,5 +8,6 @@
   "addition": "#c:ingots/aurichalcum",
   "result": {
     "id": "ftbarmory:aurichalcum_axe"
-  }
+  },
+  "addition_count": 3
 }

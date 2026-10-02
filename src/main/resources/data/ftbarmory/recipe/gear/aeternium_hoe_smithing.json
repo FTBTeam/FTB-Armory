@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": "minecraft:netherite_hoe",
   "addition": "#c:ingots/aeternium",
   "result": {
     "id": "ftbarmory:aeternium_hoe"
-  }
+  },
+  "addition_count": 2
 }

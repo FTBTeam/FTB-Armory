@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": "minecraft:netherite_leggings",
   "addition": "#c:ingots/aurichalcum",
   "result": {
     "id": "ftbarmory:aurichalcum_leggings"
-  }
+  },
+  "addition_count": 7
 }

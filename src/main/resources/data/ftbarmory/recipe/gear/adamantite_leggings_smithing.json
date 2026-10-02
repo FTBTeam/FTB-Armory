@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": "minecraft:netherite_leggings",
   "addition": "#c:ingots/adamantite",
   "result": {
     "id": "ftbarmory:adamantite_leggings"
-  }
+  },
+  "addition_count": 7
 }

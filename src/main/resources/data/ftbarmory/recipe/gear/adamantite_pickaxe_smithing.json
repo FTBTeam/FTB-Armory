@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "ftbarmory:counted_smithing",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": "minecraft:netherite_pickaxe",
   "addition": "#c:ingots/adamantite",
   "result": {
     "id": "ftbarmory:adamantite_pickaxe"
-  }
+  },
+  "addition_count": 3
 }

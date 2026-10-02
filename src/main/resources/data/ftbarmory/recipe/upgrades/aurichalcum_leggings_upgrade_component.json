@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": "#c:ingots/aurichalcum"
+  },
+  "result": {
+    "id": "ftbarmory:aurichalcum_leggings_upgrade_component"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ftbarmory:aurichalcum_block",
+    "#c:ingots/aurichalcum",
+    "#c:ingots/aurichalcum",
+    "#c:ingots/aurichalcum"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_aiot_upgrade_component"
+  }
+}

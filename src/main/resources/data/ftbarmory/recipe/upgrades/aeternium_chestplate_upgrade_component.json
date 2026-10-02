@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_chestplate_upgrade_component"
+  }
+}

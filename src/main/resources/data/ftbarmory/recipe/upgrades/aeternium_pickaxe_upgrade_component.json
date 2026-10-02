@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_pickaxe_upgrade_component"
+  }
+}

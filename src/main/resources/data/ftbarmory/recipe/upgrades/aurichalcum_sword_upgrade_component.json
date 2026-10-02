@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": "#c:ingots/aurichalcum"
+  },
+  "result": {
+    "id": "ftbarmory:aurichalcum_sword_upgrade_component"
+  }
+}

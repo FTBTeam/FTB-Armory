@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_helmet_upgrade_component"
+  }
+}

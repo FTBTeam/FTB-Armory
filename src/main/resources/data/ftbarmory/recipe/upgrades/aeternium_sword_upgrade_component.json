@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_sword_upgrade_component"
+  }
+}

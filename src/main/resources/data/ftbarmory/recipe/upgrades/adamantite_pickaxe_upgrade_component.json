@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/adamantite"
+  },
+  "result": {
+    "id": "ftbarmory:adamantite_pickaxe_upgrade_component"
+  }
+}

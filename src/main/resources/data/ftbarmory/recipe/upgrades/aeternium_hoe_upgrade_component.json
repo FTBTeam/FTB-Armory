@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "II"
+  ],
+  "key": {
+    "I": "#c:ingots/aeternium"
+  },
+  "result": {
+    "id": "ftbarmory:aeternium_hoe_upgrade_component"
+  }
+}

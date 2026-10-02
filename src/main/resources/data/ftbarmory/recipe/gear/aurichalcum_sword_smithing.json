@@ -1,13 +1,12 @@
 {
-  "type": "ftbarmory:counted_smithing",
+  "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": [
     "ftbarmory:adamantite_sword",
     "ftbarmory:aeternium_sword"
   ],
-  "addition": "#c:ingots/aurichalcum",
+  "addition": "ftbarmory:aurichalcum_sword_upgrade_component",
   "result": {
     "id": "ftbarmory:aurichalcum_sword"
-  },
-  "addition_count": 2
+  }
 }

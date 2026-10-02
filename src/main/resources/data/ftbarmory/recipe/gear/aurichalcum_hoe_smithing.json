@@ -1,13 +1,12 @@
 {
-  "type": "ftbarmory:counted_smithing",
+  "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
   "base": [
     "ftbarmory:adamantite_hoe",
     "ftbarmory:aeternium_hoe"
   ],
-  "addition": "#c:ingots/aurichalcum",
+  "addition": "ftbarmory:aurichalcum_hoe_upgrade_component",
   "result": {
     "id": "ftbarmory:aurichalcum_hoe"
-  },
-  "addition_count": 2
+  }
 }

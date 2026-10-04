@@ -79,6 +79,8 @@ configurations.all {
 dependencies {
     compileOnly("maven.modrinth:geckolib:${geckolib_modrinth_id}")
     runtimeOnly("maven.modrinth:geckolib:${geckolib_modrinth_id}")
+    compileOnly("maven.modrinth:jade:${jade_modrinth_id}")
+    runtimeOnly("maven.modrinth:jade:${jade_modrinth_id}")
 }
 
 tasks.withType(ProcessResources).configureEach {

@@ -31,7 +31,9 @@ public final class ProtectedOreBlock extends Block {
 
     @Override
     protected float getDestroyProgress(BlockState state, Player player, BlockGetter level, BlockPos pos) {
-        return OreMiningRules.canMine(player, state, pos) ? super.getDestroyProgress(state, player, level, pos) : 0.0F;
+        return OreMiningRules.canMine(player, state, pos)
+                ? super.getDestroyProgress(state, player, level, pos)
+                : Float.MIN_VALUE;
     }
 
     @Override

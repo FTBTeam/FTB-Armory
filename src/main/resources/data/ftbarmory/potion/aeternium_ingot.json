@@ -1,0 +1,9 @@
+{
+  "altar_power": 2000,
+  "base_duration": 900,
+  "capacity_cost": 6,
+  "color": -8372043,
+  "item": {
+    "id": "ftbarmory:aeternium_ingot"
+  }
+}

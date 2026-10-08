@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hostilenetworks"
+    }
+  ],
+  "type": "ftbarmory:data_model_tier",
+  "category": "misc",
+  "ingredients": [
+    "hostilenetworks:data_model",
+    "#c:ingots/aurichalcum",
+    "#c:ingots/aurichalcum",
+    "#c:ingots/aurichalcum",
+    "#c:ingots/aurichalcum"
+  ],
+  "result": {
+    "id": "hostilenetworks:data_model"
+  },
+  "min_data": 5000,
+  "set_data": 10000
+}

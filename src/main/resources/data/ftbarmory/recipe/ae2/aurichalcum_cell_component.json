@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "#c:ingots/aurichalcum",
+    "C": "ftbarmory:aeternium_cell_component",
+    "P": "ae2:engineering_processor"
+  },
+  "pattern": [
+    "ICI",
+    "CPC",
+    "ICI"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_cell_component"
+  }
+}

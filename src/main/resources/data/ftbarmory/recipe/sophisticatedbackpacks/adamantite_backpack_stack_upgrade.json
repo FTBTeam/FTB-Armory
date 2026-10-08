@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "#c:storage_blocks/adamantite",
+    "I": "#c:ingots/adamantite",
+    "S": "sophisticatedbackpacks:stack_upgrade_tier_4"
+  },
+  "pattern": [
+    "MIM",
+    "ISI",
+    "MIM"
+  ],
+  "result": {
+    "id": "ftbarmory:adamantite_backpack_stack_upgrade"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "effects": [
+    {
+      "type": "arsmagicalegacy:learn_skill",
+      "skill": "arsmagicalegacy:moonrise"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "ingredient": "#c:ingots/aeternium",
+      "radius": 4.0
+    }
+  ],
+  "trigger": {
+    "type": "arsmagicalegacy:spell_cast",
+    "parts": [
+      "arsmagicalegacy:ender_intervention",
+      "arsmagicalegacy:night_vision",
+      "arsmagicalegacy:lunar"
+    ]
+  }
+}

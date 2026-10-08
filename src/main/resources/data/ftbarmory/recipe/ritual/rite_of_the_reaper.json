@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "witchery:ritual",
+  "altar_power": 10000,
+  "block_mapping": {
+    "G": "witchery:golden_ritual_chalk",
+    "I": "witchery:infernal_chalk",
+    "O": "witchery:otherwhere_chalk"
+  },
+  "pattern": [
+    "___IIIII___",
+    "__I_____I__",
+    "_I__OOO__I_",
+    "I__O___O__I",
+    "I_O_____O_I",
+    "I_O__G__O_I",
+    "I_O_____O_I",
+    "I__O___O__I",
+    "_I__OOO__I_",
+    "__I_____I__",
+    "___IIIII___"
+  ],
+  "ritual_events": [
+    {
+      "type": "witchery:consume_items",
+      "items": [
+        {
+          "item": "#c:ingots/aurichalcum",
+          "count": 2
+        },
+        {
+          "item": "witchery:focused_will"
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ]
+    },
+    {
+      "type": "witchery:summon_entities",
+      "entities": [
+        "witchery:death"
+      ]
+    },
+    {
+      "type": "witchery:run_command",
+      "command": "tag @s add ftbarmory_reaper_rite"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apothic_enchanting"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apothic_enchanting",
+  "key": {
+    "D": "apothic_enchanting:endshelf",
+    "E": "minecraft:end_rod",
+    "N": "#c:ender_pearls",
+    "U": "#c:ingots/aurichalcum"
+  },
+  "pattern": [
+    "EUE",
+    "NDN",
+    "EUE"
+  ],
+  "result": {
+    "id": "apothic_enchanting:pearl_endshelf"
+  }
+}

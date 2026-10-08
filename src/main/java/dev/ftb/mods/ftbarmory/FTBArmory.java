@@ -1,8 +1,10 @@
 package dev.ftb.mods.ftbarmory;
 
 import com.mojang.logging.LogUtils;
+import dev.ftb.mods.ftbarmory.integration.Compat;
 import dev.ftb.mods.ftbarmory.registry.ModBlocks;
 import dev.ftb.mods.ftbarmory.registry.ModItems;
+import dev.ftb.mods.ftbarmory.registry.ModRecipes;
 import net.minecraft.resources.Identifier;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -20,8 +22,10 @@ public class FTBArmory {
     }
 
     public FTBArmory(IEventBus eventBus, ModContainer container, Dist dist) {
+        Compat.init(eventBus, dist);
         ModBlocks.BLOCKS.register(eventBus);
         ModItems.ITEMS.register(eventBus);
+        ModRecipes.SERIALIZERS.register(eventBus);
         eventBus.addListener(ModItems::onBuildCreativeTabs);
     }
 }

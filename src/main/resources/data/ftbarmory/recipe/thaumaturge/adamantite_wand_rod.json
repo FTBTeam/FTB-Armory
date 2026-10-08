@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "catalyst": "thaumaturge:wand_rod_silverwood",
+  "components": [
+    "#c:ingots/adamantite",
+    "thaumaturge:salis_mundus",
+    "#c:ingots/adamantite",
+    "thaumaturge:salis_mundus"
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "ftbarmory:esoteric_metallurgy"
+  },
+  "result": {
+    "id": "ftbarmory:adamantite_wand_rod"
+  }
+}

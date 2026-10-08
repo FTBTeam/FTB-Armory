@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "values": {
+    "ftbarmory:aurichalcum_blood_orb": {
+      "animaCapacity": 50000000,
+      "fillRate": 100,
+      "fluidCapacity": 16000,
+      "tier": 6
+    }
+  }
+}

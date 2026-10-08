@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "affinity_shifts": {},
+  "mana": 2000.0,
+  "recipe": [
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "#c:gems/sunstone"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "minecraft:clock"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "#c:ingots/aeternium"
+    }
+  ]
+}

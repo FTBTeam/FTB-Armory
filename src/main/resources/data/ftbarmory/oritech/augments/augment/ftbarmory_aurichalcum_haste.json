@@ -1,0 +1,33 @@
+{
+  "toggleable": true,
+  "researchCost": [
+    {
+      "count": 32,
+      "ingredient": "#c:ingots/aurichalcum"
+    },
+    {
+      "count": 8,
+      "ingredient": "oritech:duratium_ingot"
+    }
+  ],
+  "applyCost": [
+    {
+      "count": 4,
+      "ingredient": "#c:ingots/aurichalcum"
+    }
+  ],
+  "requirements": [
+    "oritech:augment/superminingspeed"
+  ],
+  "requiredStation": "oritech:quantum_research_station",
+  "uiX": 205,
+  "uiY": 10,
+  "time": 2400,
+  "rfCost": 500000000,
+  "effect": {
+    "type": "modifier",
+    "entityAttributeId": "minecraft:block_break_speed",
+    "attributeOperationType": 2,
+    "amount": 1.0
+  }
+}

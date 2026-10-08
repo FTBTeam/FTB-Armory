@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apothic_enchanting"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apothic_enchanting",
+  "key": {
+    "B": "#c:bookshelves",
+    "E": "minecraft:end_stone_bricks",
+    "I": "apothic_enchanting:infused_breath",
+    "A": "#c:ingots/aeternium"
+  },
+  "pattern": [
+    "EEE",
+    "IBA",
+    "EEE"
+  ],
+  "result": {
+    "id": "apothic_enchanting:endshelf"
+  }
+}

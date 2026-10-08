@@ -3,6 +3,7 @@ package dev.ftb.mods.ftbarmory.registry;
 import dev.ftb.mods.ftbarmory.FTBArmory;
 import dev.ftb.mods.ftbarmory.common.Metal;
 import dev.ftb.mods.ftbarmory.common.item.AiotItem;
+import dev.ftb.mods.ftbarmory.integration.Compat;
 import dev.ftb.mods.ftbarmory.integration.geckolib.GeckoItem;
 import dev.ftb.mods.ftbarmory.integration.geckolib.GeckoLibIntegration;
 import dev.ftb.mods.ftbarmory.integration.geckolib.GeckoShieldItem;
@@ -226,6 +227,7 @@ public final class ModItems {
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             TOOLS.forEach(event::accept);
+            Compat.ITEMS.forEach(event::accept);
         }
     }
 }

@@ -1,0 +1,33 @@
+{
+  "toggleable": false,
+  "researchCost": [
+    {
+      "count": 32,
+      "ingredient": "#c:ingots/aeternium"
+    },
+    {
+      "count": 32,
+      "ingredient": "oritech:enderic_compound"
+    }
+  ],
+  "applyCost": [
+    {
+      "count": 4,
+      "ingredient": "#c:ingots/aeternium"
+    }
+  ],
+  "requirements": [
+    "oritech:augment/superattackdamage"
+  ],
+  "requiredStation": "oritech:arcane_augment_station",
+  "uiX": 180,
+  "uiY": 90,
+  "time": 2800,
+  "rfCost": 500000000,
+  "effect": {
+    "type": "modifier",
+    "entityAttributeId": "minecraft:attack_damage",
+    "attributeOperationType": 0,
+    "amount": 4.0
+  }
+}

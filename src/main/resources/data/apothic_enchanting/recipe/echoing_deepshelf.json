@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apothic_enchanting"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apothic_enchanting",
+  "key": {
+    "C": "#minecraft:candles",
+    "D": "apothic_enchanting:deepshelf",
+    "E": "minecraft:echo_shard",
+    "A": "#c:ingots/adamantite"
+  },
+  "pattern": [
+    "AEA",
+    " D ",
+    "CCC"
+  ],
+  "result": {
+    "id": "apothic_enchanting:echoing_deepshelf"
+  }
+}

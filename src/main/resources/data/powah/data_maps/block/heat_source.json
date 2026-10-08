@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "powah"
+    }
+  ],
+  "values": {
+    "ftbarmory:adamantite_block": {
+      "temperature": 5000
+    },
+    "ftbarmory:aeternium_block": {
+      "temperature": 6500
+    },
+    "ftbarmory:aurichalcum_block": {
+      "temperature": 8000
+    }
+  }
+}

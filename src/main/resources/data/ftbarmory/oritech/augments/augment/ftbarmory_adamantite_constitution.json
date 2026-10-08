@@ -1,0 +1,33 @@
+{
+  "toggleable": false,
+  "researchCost": [
+    {
+      "count": 32,
+      "ingredient": "#c:ingots/adamantite"
+    },
+    {
+      "count": 4,
+      "ingredient": "minecraft:nether_star"
+    }
+  ],
+  "applyCost": [
+    {
+      "count": 4,
+      "ingredient": "#c:ingots/adamantite"
+    }
+  ],
+  "requirements": [
+    "oritech:augment/hpboostultimate"
+  ],
+  "requiredStation": "oritech:quantum_research_station",
+  "uiX": 205,
+  "uiY": 70,
+  "time": 2400,
+  "rfCost": 500000000,
+  "effect": {
+    "type": "modifier",
+    "entityAttributeId": "minecraft:max_health",
+    "attributeOperationType": 0,
+    "amount": 10.0
+  }
+}

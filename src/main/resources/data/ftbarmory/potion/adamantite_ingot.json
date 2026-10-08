@@ -1,0 +1,9 @@
+{
+  "altar_power": 1000,
+  "base_duration": 900,
+  "capacity_cost": 5,
+  "color": -12163991,
+  "item": {
+    "id": "ftbarmory:adamantite_ingot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ftbic"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "#c:ingots/adamantite",
+    "O": "ftbic:overclocker_upgrade",
+    "C": "ftbic:advanced_circuit"
+  },
+  "pattern": [
+    "MMM",
+    "OCO",
+    "MMM"
+  ],
+  "result": {
+    "id": "ftbarmory:adamantite_overclocker_upgrade"
+  }
+}

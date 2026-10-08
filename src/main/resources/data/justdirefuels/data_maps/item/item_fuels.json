@@ -1,0 +1,8 @@
+{
+  "values": {
+    "ftbarmory:aurichalcum_ember": {
+      "fe_per_tick": 75,
+      "burn_speed_multiplier": 32
+    }
+  }
+}

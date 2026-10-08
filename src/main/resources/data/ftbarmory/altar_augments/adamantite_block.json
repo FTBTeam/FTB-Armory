@@ -1,0 +1,7 @@
+{
+  "block": "ftbarmory:adamantite_block",
+  "bonus": {
+    "light_bonus": 3.5
+  },
+  "category": "light"
+}

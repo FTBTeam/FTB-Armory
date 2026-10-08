@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "occultism:ritual",
+  "activation_item": "minecraft:calibrated_sculk_sensor",
+  "duration": 412,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.shulker",
+    "tag": "c:shulkers"
+  },
+  "ingredients": [
+    "occultism:storage_controller",
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    [
+      "occultism:storage_stabilizer_tier5",
+      "occultism:storage_stabilizer_tier5_dark"
+    ],
+    "#c:dusts/echo",
+    "#c:dusts/echo",
+    "#c:storage_blocks/aurichalcum",
+    "#c:storage_blocks/aurichalcum"
+  ],
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "result": {
+    "id": "occultism:storage_controller_stabilized"
+  },
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_stabilized_storage"
+  },
+  "ritual_type": "occultism:upgrade"
+}

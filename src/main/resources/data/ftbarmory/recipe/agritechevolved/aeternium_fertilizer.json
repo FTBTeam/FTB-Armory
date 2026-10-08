@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "agritechevolved"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:nuggets/aeternium",
+    "agritechevolved:compacted_biomass",
+    "agritechevolved:compacted_biomass",
+    "agritechevolved:compacted_biomass",
+    "agritechevolved:compacted_biomass"
+  ],
+  "result": {
+    "id": "ftbarmory:aeternium_fertilizer",
+    "count": 8
+  }
+}

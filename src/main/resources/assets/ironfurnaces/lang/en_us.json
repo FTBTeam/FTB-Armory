@@ -1,0 +1,14 @@
+{
+  "item.ironfurnaces.allthemodium_furnace": "Adamantite Furnace",
+  "block.ironfurnaces.allthemodium_furnace": "Adamantite Furnace",
+  "container.ironfurnaces.allthemodium_furnace": "Adamantite Furnace",
+  "item.ironfurnaces.upgrade_allthemodium": "Netherite to Adamantite Furnace Upgrade",
+  "item.ironfurnaces.vibranium_furnace": "Aeternium Furnace",
+  "block.ironfurnaces.vibranium_furnace": "Aeternium Furnace",
+  "container.ironfurnaces.vibranium_furnace": "Aeternium Furnace",
+  "item.ironfurnaces.upgrade_vibranium": "Adamantite to Aeternium Furnace Upgrade",
+  "item.ironfurnaces.unobtainium_furnace": "Aurichalcum Furnace",
+  "block.ironfurnaces.unobtainium_furnace": "Aurichalcum Furnace",
+  "container.ironfurnaces.unobtainium_furnace": "Aurichalcum Furnace",
+  "item.ironfurnaces.upgrade_unobtainium": "Aeternium to Aurichalcum Furnace Upgrade"
+}

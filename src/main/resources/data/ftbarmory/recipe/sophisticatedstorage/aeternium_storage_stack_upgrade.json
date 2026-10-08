@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "#c:storage_blocks/aeternium",
+    "I": "#c:ingots/aeternium",
+    "S": "ftbarmory:adamantite_storage_stack_upgrade"
+  },
+  "pattern": [
+    "MIM",
+    "ISI",
+    "MIM"
+  ],
+  "result": {
+    "id": "ftbarmory:aeternium_storage_stack_upgrade"
+  }
+}

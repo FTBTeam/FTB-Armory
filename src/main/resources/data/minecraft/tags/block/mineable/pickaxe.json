@@ -10,6 +10,30 @@
     "ftbarmory:aeternium_nether_ore",
     "ftbarmory:aurichalcum_block",
     "ftbarmory:aurichalcum_raw_block",
-    "ftbarmory:aurichalcum_end_ore"
+    "ftbarmory:aurichalcum_end_ore",
+    {
+      "id": "ftbarmory:adamantite_machine_core",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aeternium_machine_core",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aurichalcum_machine_core",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aurichalcum_pillar",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aurichalcum_pedestal",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aeternium_smelter",
+      "required": false
+    }
   ]
 }

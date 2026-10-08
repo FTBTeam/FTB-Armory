@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ltxi"
+    }
+  ],
+  "type": "ltxi:fabricating",
+  "energy_required": 100000000,
+  "group": "machine/parallel_tiers",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "neoforge:ingredient_type": "neoforge:components",
+        "components": {
+          "ltxi:upgrade": {
+            "rank": 3,
+            "upgrade": "ltxi:parallel_tiers"
+          }
+        },
+        "items": "ltxi:upgrade_module"
+      }
+    },
+    {
+      "count": 8,
+      "ingredient": "#c:ingots/adamantite"
+    },
+    {
+      "count": 2,
+      "ingredient": "#c:storage_blocks/adamantite"
+    },
+    {
+      "ingredient": "ltxi:t5_circuit"
+    }
+  ],
+  "result": {
+    "components": {
+      "ltxi:upgrade": {
+        "rank": 4,
+        "upgrade": "ltxi:parallel_tiers"
+      }
+    },
+    "count": 1,
+    "id": "ltxi:upgrade_module"
+  }
+}

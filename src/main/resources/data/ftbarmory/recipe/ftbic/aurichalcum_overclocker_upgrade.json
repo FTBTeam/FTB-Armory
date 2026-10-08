@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ftbic"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "#c:ingots/aurichalcum",
+    "O": "ftbarmory:aeternium_overclocker_upgrade",
+    "C": "ftbic:iridium_circuit"
+  },
+  "pattern": [
+    "MMM",
+    "OCO",
+    "MMM"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_overclocker_upgrade"
+  }
+}

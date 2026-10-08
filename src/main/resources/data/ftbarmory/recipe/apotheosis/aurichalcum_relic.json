@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "apotheosis:godforged_pearl",
+    "A": "#c:ingots/aurichalcum"
+  },
+  "pattern": [
+    "PAP",
+    "APA",
+    "PAP"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_relic"
+  }
+}

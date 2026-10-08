@@ -1,0 +1,111 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "*": {
+      "type": "modonomicon:display",
+      "display": "occultism:otherstone"
+    },
+    "+": {
+      "type": "modonomicon:display",
+      "display": "occultism:otherrock"
+    },
+    "0": {
+      "type": "modonomicon:tag",
+      "display": "occultism:golden_sacrificial_bowl",
+      "tag": "#occultism:center_sacrificial_bowl"
+    },
+    "A": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_light_blue",
+      "tag": "#occultism:glyphs_light_blue"
+    },
+    "B": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_brown",
+      "tag": "#occultism:glyphs_brown"
+    },
+    "C": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_cyan",
+      "tag": "#occultism:glyphs_cyan"
+    },
+    "E": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_green",
+      "tag": "#occultism:glyphs_green"
+    },
+    "M": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_magenta",
+      "tag": "#occultism:glyphs_magenta"
+    },
+    "P": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_pink",
+      "tag": "#occultism:glyphs_pink"
+    },
+    "U": {
+      "type": "modonomicon:tag",
+      "display": "ftbarmory:aurichalcum_block",
+      "tag": "#c:storage_blocks/aurichalcum"
+    },
+    "T": {
+      "type": "modonomicon:tag",
+      "display": "ftbarmory:aeternium_block",
+      "tag": "#c:storage_blocks/aeternium"
+    },
+    "D": {
+      "type": "modonomicon:tag",
+      "display": "ftbarmory:adamantite_block",
+      "tag": "#c:storage_blocks/adamantite"
+    }
+  },
+  "pattern": [
+    [
+      "_____________________",
+      "__________C__________",
+      "_________CUC_________",
+      "_________CMC_________",
+      "____BB__CMMMC__BB____",
+      "____BTBBCMPMCBBDB____",
+      "_____BABAE_EABAB_____",
+      "_____BB_PE_EP_BB_____",
+      "____CCAPA_P_APACC____",
+      "__CCMMEE_____EEMMCC__",
+      "_CUMMP__P_0_P__PMMUC_",
+      "__CCMMEE_____EEMMCC__",
+      "____CCAPA_P_APACC____",
+      "_____BB_PE_EP_BB_____",
+      "_____BABAE_EABAB_____",
+      "____BDBBCMPMCBBTB____",
+      "____BB__CMMMC__BB____",
+      "_________CMC_________",
+      "_________CUC_________",
+      "__________C__________",
+      "_____________________"
+    ],
+    [
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*",
+      "+*+*+*+*+*+*+*+*+*+*+",
+      "*+*+*+*+*+*+*+*+*+*+*"
+    ]
+  ]
+}

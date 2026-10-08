@@ -1,0 +1,7 @@
+{
+  "parent": "thaumaturge:block/pillar_arcane",
+  "textures": {
+    "texture": "ftbarmory:block/aurichalcum_pillar",
+    "particle": "ftbarmory:block/aurichalcum_pillar"
+  }
+}

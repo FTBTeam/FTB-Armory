@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "neovitae"
+    }
+  ],
+  "type": "neovitae:ara_vitae_recipe",
+  "bloodNeeded": 1000000,
+  "craftSpeed": 100,
+  "drainSpeed": 400,
+  "input": "ftbarmory:aurichalcum_block",
+  "minTier": 5,
+  "output": {
+    "id": "ftbarmory:aurichalcum_blood_orb"
+  }
+}

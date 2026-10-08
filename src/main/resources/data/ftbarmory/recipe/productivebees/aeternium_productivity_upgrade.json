@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "productivebees"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "ftbarmory:adamantite_productivity_upgrade",
+    "E": "#c:storage_blocks/aeternium",
+    "B": "productivelib:upgrade_block"
+  },
+  "pattern": [
+    "CEC",
+    "EBE",
+    "CEC"
+  ],
+  "result": {
+    "id": "ftbarmory:aeternium_productivity_upgrade"
+  }
+}

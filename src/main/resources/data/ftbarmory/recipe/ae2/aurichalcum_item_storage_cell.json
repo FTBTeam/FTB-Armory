@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "ae2:quartz_glass",
+    "b": "#c:dusts/redstone",
+    "c": "ftbarmory:aurichalcum_cell_component",
+    "d": "#c:ingots/iron",
+    "e": "#c:ingots/copper"
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "ded"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_item_storage_cell"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "values": {
+    "ftbarmory:adamantite_block": {
+      "stability": 0.05
+    },
+    "ftbarmory:aeternium_block": {
+      "cost": -0.03
+    },
+    "ftbarmory:aurichalcum_block": {
+      "cycle_time": -1
+    }
+  }
+}

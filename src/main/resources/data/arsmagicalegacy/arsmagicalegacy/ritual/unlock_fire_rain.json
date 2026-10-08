@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "effects": [
+    {
+      "type": "arsmagicalegacy:learn_skill",
+      "skill": "arsmagicalegacy:fire_rain"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "arsmagicalegacy:ingredient",
+      "ingredient": "#c:ingots/adamantite",
+      "radius": 4.0
+    }
+  ],
+  "trigger": {
+    "type": "arsmagicalegacy:spell_cast",
+    "parts": [
+      "arsmagicalegacy:fire_damage",
+      "arsmagicalegacy:ignition",
+      "arsmagicalegacy:storm"
+    ]
+  }
+}

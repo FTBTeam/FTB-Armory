@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "ftbarmory:item/aurichalcum_focus",
+    "tints": [
+      {
+        "type": "thaumaturge:focus_color"
+      }
+    ]
+  }
+}

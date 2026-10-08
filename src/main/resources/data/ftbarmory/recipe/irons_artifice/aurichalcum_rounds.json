@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_artifice"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "#c:nuggets/aurichalcum",
+    "I": "#c:ingots/aurichalcum",
+    "B": "irons_artifice:blackpowder"
+  },
+  "pattern": [
+    " N ",
+    "NIN",
+    "IBI"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_rounds"
+  }
+}

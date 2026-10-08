@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "#c:ingots/adamantite"
+  },
+  "pattern": [
+    " I ",
+    "III",
+    " I "
+  ],
+  "result": {
+    "count": 24,
+    "id": "ftbarmory:adamantite_grinding_ball"
+  }
+}

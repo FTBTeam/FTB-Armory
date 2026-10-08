@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_artifice"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "#c:nuggets/adamantite",
+    "I": "#c:ingots/adamantite",
+    "B": "irons_artifice:blackpowder"
+  },
+  "pattern": [
+    " N ",
+    "NIN",
+    "IBI"
+  ],
+  "result": {
+    "id": "ftbarmory:adamantite_rounds"
+  }
+}

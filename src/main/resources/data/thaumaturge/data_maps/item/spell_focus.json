@@ -1,0 +1,10 @@
+{
+  "values": {
+    "ftbarmory:aurichalcum_focus": {
+      "complexity": 120,
+      "depth": 18,
+      "branches": 6,
+      "repeats": 6
+    }
+  }
+}

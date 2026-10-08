@@ -1,0 +1,15 @@
+{
+  "values": {
+    "ftbarmory:aurichalcum_ember": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "justdirefuels"
+        }
+      ],
+      "value": {
+        "burn_time": 129600
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "thaumaturge:block/smelter_basic_off",
+  "textures": {
+    "east": "ftbarmory:block/aeternium_smelter_side",
+    "west": "ftbarmory:block/aeternium_smelter_side",
+    "south": "ftbarmory:block/aeternium_smelter_side",
+    "particle": "ftbarmory:block/aeternium_smelter_side",
+    "north": "ftbarmory:block/aeternium_smelter_front_off"
+  }
+}

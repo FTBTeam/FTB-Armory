@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ae2:item_cell_housing",
+    "ftbarmory:aurichalcum_cell_component"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_item_storage_cell"
+  }
+}

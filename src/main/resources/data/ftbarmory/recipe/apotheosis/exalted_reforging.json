@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "type": "apotheosis:reforging",
+  "level_cost": 75,
+  "material_cost": 3,
+  "rarity": "ftbarmory:exalted",
+  "sigil_cost": 6,
+  "tables": "apotheosis:reforging_table"
+}

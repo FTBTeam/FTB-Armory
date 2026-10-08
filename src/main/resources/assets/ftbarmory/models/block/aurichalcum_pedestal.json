@@ -1,0 +1,8 @@
+{
+  "parent": "thaumaturge:block/pedestal_arcane",
+  "textures": {
+    "side": "ftbarmory:block/aurichalcum_pedestal_side",
+    "top": "ftbarmory:block/aurichalcum_pedestal_top",
+    "particle": "ftbarmory:block/aurichalcum_pedestal_side"
+  }
+}

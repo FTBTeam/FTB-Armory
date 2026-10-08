@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_25",
   "mixins": [
     "FtbicDiggingMixin",
-    "FtbicQuarryMixin"
+    "FtbicQuarryMixin",
+    "FtbicOverclockerMixin",
+    "ProductiveBeesHiveMixin"
   ],
   "injectors": {
     "defaultRequire": 1

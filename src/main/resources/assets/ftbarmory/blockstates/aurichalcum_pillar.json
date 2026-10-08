@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ftbarmory:block/aurichalcum_pillar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ftbarmory:block/aurichalcum_pillar"
+    },
+    "facing=south": {
+      "model": "ftbarmory:block/aurichalcum_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ftbarmory:block/aurichalcum_pillar",
+      "y": 270
+    }
+  }
+}

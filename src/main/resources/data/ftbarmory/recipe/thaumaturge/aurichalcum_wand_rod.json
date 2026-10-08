@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "catalyst": "thaumaturge:wand_rod_silverwood",
+  "components": [
+    "#c:ingots/aurichalcum",
+    "thaumaturge:salis_mundus",
+    "#c:ingots/aurichalcum",
+    "thaumaturge:salis_mundus"
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 12
+    }
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "ftbarmory:esoteric_metallurgy"
+  },
+  "result": {
+    "id": "ftbarmory:aurichalcum_wand_rod"
+  }
+}

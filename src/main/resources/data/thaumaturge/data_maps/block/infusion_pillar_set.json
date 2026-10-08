@@ -1,0 +1,9 @@
+{
+  "values": {
+    "ftbarmory:aurichalcum_pillar": {
+      "cycle_time": -3,
+      "cost": -0.12,
+      "stability": 0.25
+    }
+  }
+}

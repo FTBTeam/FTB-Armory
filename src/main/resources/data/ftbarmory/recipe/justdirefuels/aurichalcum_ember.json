@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "justdirefuels"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "justdirethings:coal_t4",
+    "N": "#c:nuggets/aurichalcum",
+    "I": "#c:ingots/aurichalcum"
+  },
+  "pattern": [
+    "CNC",
+    "NIN",
+    "CNC"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_ember",
+    "count": 4
+  }
+}

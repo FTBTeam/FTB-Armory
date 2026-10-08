@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:ingots/aeternium",
+    "arsmagicalegacy:purified_vinteum_dust",
+    "arsmagicalegacy:moonstone"
+  ],
+  "result": {
+    "id": "arsmagicalegacy:infinity_orb",
+    "components": {
+      "arsmagicalegacy:skill_point": "arsmagicalegacy:green"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "category": "thaumaturge:infusion",
+  "name": "research.ftbarmory.esoteric_metallurgy.title",
+  "parents": [
+    "thaumaturge:infusion_eldritch"
+  ],
+  "column": 2,
+  "row": 6,
+  "icons": [
+    "ftbarmory:aurichalcum_ingot"
+  ],
+  "stages": [
+    {
+      "text": "research.ftbarmory.esoteric_metallurgy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 2
+        }
+      ],
+      "obtain": [
+        {
+          "items": "#c:ingots/adamantite",
+          "amount": 1
+        },
+        {
+          "items": "#c:ingots/aeternium",
+          "amount": 1
+        },
+        {
+          "items": "#c:ingots/aurichalcum",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.ftbarmory.esoteric_metallurgy.stage_1",
+      "recipes": [
+        "ftbarmory:thaumaturge/aurichalcum_focus",
+        "ftbarmory:thaumaturge/aurichalcum_pillar",
+        "ftbarmory:thaumaturge/aurichalcum_pedestal",
+        "ftbarmory:thaumaturge/aeternium_smelter",
+        "ftbarmory:thaumaturge/aurichalcum_wand_cap",
+        "ftbarmory:thaumaturge/aurichalcum_wand_rod",
+        "ftbarmory:thaumaturge/aurichalcum_staff_rod",
+        "ftbarmory:thaumaturge/adamantite_wand_cap",
+        "ftbarmory:thaumaturge/adamantite_wand_rod",
+        "ftbarmory:thaumaturge/adamantite_staff_rod",
+        "ftbarmory:thaumaturge/aeternium_wand_cap",
+        "ftbarmory:thaumaturge/aeternium_wand_rod",
+        "ftbarmory:thaumaturge/aeternium_staff_rod"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 3
+    }
+  ],
+  "complexity": 3
+}

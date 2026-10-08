@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "#c:storage_blocks/aurichalcum",
+    "I": "#c:ingots/aurichalcum",
+    "S": "ftbarmory:aeternium_storage_stack_upgrade"
+  },
+  "pattern": [
+    "MIM",
+    "ISI",
+    "MIM"
+  ],
+  "result": {
+    "id": "ftbarmory:aurichalcum_storage_stack_upgrade"
+  }
+}

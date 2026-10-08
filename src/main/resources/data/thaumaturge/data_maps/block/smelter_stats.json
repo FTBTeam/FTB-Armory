@@ -1,0 +1,8 @@
+{
+  "values": {
+    "ftbarmory:aeternium_smelter": {
+      "efficiency": 0.97,
+      "smelt_interval": 7
+    }
+  }
+}

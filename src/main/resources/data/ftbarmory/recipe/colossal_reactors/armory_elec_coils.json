@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "colossal_reactors"
+    }
+  ],
+  "type": "colossal_reactors:elec_coils",
+  "entries": [
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/adamantite"
+      ],
+      "eff_coe": 1.45,
+      "eff_max": 1.7
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/aeternium"
+      ],
+      "eff_coe": 1.6,
+      "eff_max": 1.9
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/aurichalcum"
+      ],
+      "eff_coe": 1.8,
+      "eff_max": 2.2
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "block": "ftbarmory:aeternium_block",
+  "bonus": {
+    "chalice_bonus": 3.0
+  },
+  "category": "chalice"
+}

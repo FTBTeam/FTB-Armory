@@ -1,0 +1,6 @@
+{
+  "parent": "ftbarmory:block/aeternium_smelter_off",
+  "textures": {
+    "north": "ftbarmory:block/aeternium_smelter_front_on"
+  }
+}

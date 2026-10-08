@@ -64,6 +64,14 @@ repositories {
     commonMavenRepos(repositories)
 
     maven {
+        name = "CurseMaven"
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
         content {
@@ -76,11 +84,36 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
+configurations {
+    productiveBeesArtifact
+}
+
 dependencies {
     compileOnly("maven.modrinth:geckolib:${geckolib_modrinth_id}")
     runtimeOnly("maven.modrinth:geckolib:${geckolib_modrinth_id}")
     compileOnly("maven.modrinth:jade:${jade_modrinth_id}")
     runtimeOnly("maven.modrinth:jade:${jade_modrinth_id}")
+    compileOnly("curse.maven:ae2-223794:${ae2_curse_file_id}")
+    compileOnly("curse.maven:sophisticatedcore-618298:${sophisticatedcore_curse_file_id}")
+    compileOnly("curse.maven:sophisticatedstorage-619320:${sophisticatedstorage_curse_file_id}")
+    compileOnly("curse.maven:sophisticatedbackpacks-422301:${sophisticatedbackpacks_curse_file_id}")
+    compileOnly("curse.maven:neovitae-1404763:${neovitae_curse_file_id}")
+    compileOnly("curse.maven:occultism-361026:${occultism_curse_file_id}")
+    compileOnly("curse.maven:thaumaturge-1628024:${thaumaturge_curse_file_id}")
+    compileOnly("curse.maven:oritech-1030830:${oritech_curse_file_id}")
+    compileOnly("curse.maven:ftbic-539097:${ftbic_curse_file_id}")
+    compileOnly("curse.maven:productivebees-377897:${productivebees_curse_file_id}")
+    productiveBeesArtifact("curse.maven:productivebees-377897:${productivebees_curse_file_id}")
+    compileOnly files(provider {
+        zipTree(configurations.productiveBeesArtifact.singleFile).matching {
+            include 'META-INF/jarjar/productivelib-*.jar'
+        }.files
+    })
+    compileOnly("curse.maven:irons-artifice-1650193:${irons_artifice_curse_file_id}")
+    compileOnly("curse.maven:justdirefuels-1554863:${justdirefuels_curse_file_id}")
+    compileOnly("curse.maven:agritechevolved-1287394:${agritechevolved_curse_file_id}")
+    compileOnly("curse.maven:apotheosis-313970:${apotheosis_curse_file_id}")
+    compileOnly("curse.maven:placebo-283644:${placebo_curse_file_id}")
 }
 
 tasks.withType(ProcessResources).configureEach {

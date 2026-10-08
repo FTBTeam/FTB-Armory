@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "occultism:ritual",
+  "activation_item": "occultism:mining_dim_core",
+  "duration": 600,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.creeper",
+    "tag": "occultism:creepers"
+  },
+  "ingredients": [
+    "occultism:miner_ancient_eldritch",
+    "occultism:miner_ancient_eldritch",
+    "#c:storage_blocks/aurichalcum",
+    "#c:storage_blocks/aurichalcum",
+    "#c:storage_blocks/aeternium",
+    "#c:storage_blocks/adamantite"
+  ],
+  "pentacle_id": "ftbarmory:armory_pentacle",
+  "result": {
+    "id": "ftbarmory:primordial_miner"
+  },
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/custom_ritual_craft"
+  },
+  "ritual_type": "occultism:craft_miner_spirit"
+}

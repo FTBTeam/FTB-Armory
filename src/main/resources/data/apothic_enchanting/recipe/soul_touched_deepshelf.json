@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apothic_enchanting"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apothic_enchanting",
+  "key": {
+    "C": "minecraft:sculk",
+    "D": "apothic_enchanting:deepshelf",
+    "S": "minecraft:soul_lantern",
+    "A": "#c:ingots/adamantite"
+  },
+  "pattern": [
+    "ASA",
+    " D ",
+    "CCC"
+  ],
+  "result": {
+    "id": "apothic_enchanting:soul_touched_deepshelf"
+  }
+}

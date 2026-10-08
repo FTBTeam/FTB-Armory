@@ -1,0 +1,16 @@
+{
+  "values": {
+    "ftbarmory:adamantite_fertilizer": {
+      "speed_multiplier": 2.0,
+      "yield_multiplier": 1.9
+    },
+    "ftbarmory:aeternium_fertilizer": {
+      "speed_multiplier": 2.3,
+      "yield_multiplier": 2.0
+    },
+    "ftbarmory:aurichalcum_fertilizer": {
+      "speed_multiplier": 2.6,
+      "yield_multiplier": 2.1
+    }
+  }
+}

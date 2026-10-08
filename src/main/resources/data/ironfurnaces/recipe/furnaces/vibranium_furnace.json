@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "#": "#c:ingots/aeternium",
+    "X": "#c:furnaces/allthemodium",
+    "B": "#c:storage_blocks/aeternium"
+  },
+  "result": {
+    "id": "ironfurnaces:vibranium_furnace"
+  }
+}

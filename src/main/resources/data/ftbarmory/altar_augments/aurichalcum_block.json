@@ -1,0 +1,7 @@
+{
+  "block": "ftbarmory:aurichalcum_block",
+  "bonus": {
+    "range_multiplier": 3.0
+  },
+  "category": "range"
+}

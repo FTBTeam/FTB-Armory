@@ -1,5 +1,6 @@
 package dev.ftb.mods.ftbarmory.integration;
 
+import dev.ftb.mods.ftbarmory.FTBArmory;
 import dev.ftb.mods.ftbarmory.integration.ae2.AE2Compat;
 import dev.ftb.mods.ftbarmory.integration.agritech.AgritechCompat;
 import dev.ftb.mods.ftbarmory.integration.apotheosis.ApotheosisCompat;
@@ -16,10 +17,15 @@ import dev.ftb.mods.ftbarmory.integration.sophisticated.SophisticatedStorageComp
 import dev.ftb.mods.ftbarmory.integration.thaumaturge.ThaumaturgeCompat;
 import java.util.ArrayList;
 import java.util.List;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.server.packs.repository.PackSource;
 import net.minecraft.world.item.Item;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.event.AddPackFindersEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 
 public final class Compat {
@@ -78,6 +84,21 @@ public final class Compat {
         }
         if (loaded("apotheosis")) {
             ApotheosisCompat.init();
+        }
+        eventBus.addListener(Compat::addPackFinders);
+    }
+
+    private static void addPackFinders(AddPackFindersEvent event) {
+        for (String modId : List.of("ae2", "thaumaturge")) {
+            if (loaded(modId)) {
+                event.addPackFinders(
+                        FTBArmory.id("resourcepacks/" + modId),
+                        PackType.CLIENT_RESOURCES,
+                        Component.translatable("pack.ftbarmory." + modId),
+                        PackSource.BUILT_IN,
+                        true,
+                        Pack.Position.TOP);
+            }
         }
     }
 }

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ftbarmory:adamantite_storage_stack_upgrade",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aeternium_storage_stack_upgrade",
+      "required": false
+    },
+    {
+      "id": "ftbarmory:aurichalcum_storage_stack_upgrade",
+      "required": false
+    }
+  ]
+}

@@ -1,10 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": [
-    "ftbarmory:adamantite_spear",
-    "ftbarmory:aeternium_spear"
-  ],
+  "base": "ftbarmory:aeternium_spear",
   "addition": "#c:ingots/aurichalcum",
   "result": {
     "id": "ftbarmory:aurichalcum_spear"

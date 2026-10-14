@@ -1,10 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": [
-    "minecraft:netherite_hoe",
-    "ftbarmory:adamantite_hoe"
-  ],
+  "base": "ftbarmory:adamantite_hoe",
   "addition": "ftbarmory:aeternium_hoe_upgrade_component",
   "result": {
     "id": "ftbarmory:aeternium_hoe"

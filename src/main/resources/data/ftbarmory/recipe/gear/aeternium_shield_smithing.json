@@ -1,7 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:shield",
+  "base": [
+    "minecraft:shield",
+    "ftbarmory:adamantite_shield"
+  ],
   "addition": "#c:ingots/aeternium",
   "result": {
     "id": "ftbarmory:aeternium_shield"

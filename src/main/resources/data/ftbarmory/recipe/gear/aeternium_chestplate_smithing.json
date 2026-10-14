@@ -1,7 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:netherite_chestplate",
+  "base": [
+    "minecraft:netherite_chestplate",
+    "ftbarmory:adamantite_chestplate"
+  ],
   "addition": "ftbarmory:aeternium_chestplate_upgrade_component",
   "result": {
     "id": "ftbarmory:aeternium_chestplate"

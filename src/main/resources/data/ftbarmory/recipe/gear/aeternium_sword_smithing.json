@@ -1,7 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:netherite_sword",
+  "base": [
+    "minecraft:netherite_sword",
+    "ftbarmory:adamantite_sword"
+  ],
   "addition": "ftbarmory:aeternium_sword_upgrade_component",
   "result": {
     "id": "ftbarmory:aeternium_sword"

@@ -1,7 +1,11 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:netherite_helmet",
+  "base": [
+    "minecraft:netherite_helmet",
+    "ftbarmory:adamantite_helmet",
+    "ftbarmory:aeternium_helmet"
+  ],
   "addition": "ftbarmory:aurichalcum_helmet_upgrade_component",
   "result": {
     "id": "ftbarmory:aurichalcum_helmet"

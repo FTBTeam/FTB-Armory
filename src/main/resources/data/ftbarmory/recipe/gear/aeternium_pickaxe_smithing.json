@@ -1,7 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:netherite_pickaxe",
+  "base": [
+    "minecraft:netherite_pickaxe",
+    "ftbarmory:adamantite_pickaxe"
+  ],
   "addition": "ftbarmory:aeternium_pickaxe_upgrade_component",
   "result": {
     "id": "ftbarmory:aeternium_pickaxe"

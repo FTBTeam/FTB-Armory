@@ -1,7 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": "minecraft:netherite_upgrade_smithing_template",
-  "base": "minecraft:netherite_axe",
+  "base": [
+    "minecraft:netherite_axe",
+    "ftbarmory:adamantite_axe"
+  ],
   "addition": "ftbarmory:aeternium_axe_upgrade_component",
   "result": {
     "id": "ftbarmory:aeternium_axe"

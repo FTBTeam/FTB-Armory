@@ -53,7 +53,7 @@ public final class Compat {
             NeoVitaeCompat.init();
         }
         if (loaded("ae2")) {
-            AE2Compat.init();
+            AE2Compat.init(eventBus);
         }
         if (loaded("sophisticatedstorage")) {
             SophisticatedStorageCompat.init();

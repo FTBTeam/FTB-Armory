@@ -8,7 +8,7 @@
   "values": {
     "ftbarmory:aurichalcum_blood_orb": {
       "animaCapacity": 50000000,
-      "fillRate": 100,
+      "fillRate": 320,
       "fluidCapacity": 16000,
       "tier": 6
     }

@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [26.1.2.9]
+
+* The Aurichalcum Blood Orb charges much faster in a NeoVitae Orb Vitae Link or on the altar (fill rate 100 to 320), keeping it ahead of the Divinus Orb
+
 ## [26.1.2.8]
 
 * Adamantite, Aeternium and Aurichalcum ME Item Storage Cells accept the same upgrade cards as AE2's own item cells: Fuzzy, Inverter, Equal Distribution and Overflow Destruction (FTBTeam/FTB-Modpack-Issues#13622)

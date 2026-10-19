@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [26.1.2.10]
 
 * Tools with Apotheosis' Omnetic affix can mine Adamantite, Aeternium and Aurichalcum ore when any tool in the affix's list can, so an Exalted Omnetic tool now mines Aurichalcum ore (FTBTeam/FTB-Modpack-Issues#13742)
+* The Adamantite, Aeternium and Aurichalcum Furnaces and their upgrades show in JEI and the Iron Furnaces creative tab again (FTBTeam/FTB-Modpack-Issues#13767)
 
 ## [26.1.2.9]
 

@@ -7,6 +7,7 @@ import dev.ftb.mods.ftbarmory.integration.apotheosis.ApotheosisCompat;
 import dev.ftb.mods.ftbarmory.integration.artifice.ArtificeCompat;
 import dev.ftb.mods.ftbarmory.integration.enderio.EnderIOCompat;
 import dev.ftb.mods.ftbarmory.integration.ftbic.FtbicOverclockers;
+import dev.ftb.mods.ftbarmory.integration.ironfurnaces.IronFurnacesCompat;
 import dev.ftb.mods.ftbarmory.integration.justdirefuels.JustDireFuelsCompat;
 import dev.ftb.mods.ftbarmory.integration.neovitae.NeoVitaeCompat;
 import dev.ftb.mods.ftbarmory.integration.occultism.OccultismCompat;
@@ -84,6 +85,9 @@ public final class Compat {
         }
         if (loaded("apotheosis")) {
             ApotheosisCompat.init();
+        }
+        if (loaded("ironfurnaces")) {
+            IronFurnacesCompat.init(eventBus);
         }
         eventBus.addListener(Compat::addPackFinders);
     }

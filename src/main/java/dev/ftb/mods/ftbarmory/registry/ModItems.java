@@ -195,7 +195,12 @@ public final class ModItems {
                 metal.id() + "_shield",
                 JSON_MODEL_SHIELDS.contains(metal)
                         ? ShieldItem::new
-                        : p -> new GeckoShieldItem(p, visual(metal, "shield", "shield")),
+                        : p -> new GeckoShieldItem(
+                                p,
+                                new GeoVisual(
+                                        FTBArmory.id(metal.id() + "_shield"),
+                                        FTBArmory.id(metal.id() + "_shield"),
+                                        false)),
                 p -> finish.apply(p.durability(metal.toolStats().durability())
                         .repairable(metal.ingots())
                         .equippableUnswappable(EquipmentSlot.OFFHAND)

@@ -11,7 +11,7 @@ public final class SophisticatedBackpacksCompat {
     private SophisticatedBackpacksCompat() {}
 
     public static void init() {
-        register(Metal.ADAMANTITE, 16.0);
+        register(Metal.ADAMANTITE, 20.0);
         register(Metal.AETERNIUM, 24.0);
         register(Metal.AURICHALCUM, 32.0);
     }

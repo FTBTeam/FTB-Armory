@@ -3,13 +3,17 @@ package dev.ftb.mods.ftbarmory.mixin;
 import dev.ftb.mods.ftbarmory.integration.ftbic.QuarryMiningContext;
 import dev.ftb.mods.ftbarmory.integration.ftbic.QuarryToolAccess;
 import dev.ftb.mods.ftbarmory.registry.ModTags;
+import dev.ftb.mods.ftbic.block.entity.machine.BasicMachineBlockEntity;
 import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemInstance;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
@@ -30,6 +34,19 @@ public abstract class FtbicQuarryMixin implements QuarryToolAccess {
     @Override
     public ItemStack ftbarmory$getQuarryTool() {
         return pickaxeStack;
+    }
+
+    @Inject(method = "upgradesChanged", at = @At("TAIL"))
+    private void ftbarmory$efficiencyCostsEnergy(CallbackInfo ci) {
+        BasicMachineBlockEntity machine = (BasicMachineBlockEntity) (Object) this;
+        if (pickaxeStack.isEmpty() || !pickaxeStack.is(ItemTags.PICKAXES) || machine.getLevel() == null) {
+            return;
+        }
+        int efficiency = EnchantmentHelper.getItemEnchantmentLevel(
+                machine.getLevel().registryAccess().holderOrThrow(Enchantments.EFFICIENCY), pickaxeStack);
+        if (efficiency > 0) {
+            machine.energyUse *= 1.0 + 0.1 * efficiency;
+        }
     }
 
     @Inject(method = "digBlock", at = @At("HEAD"), cancellable = true)

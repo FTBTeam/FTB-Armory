@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [26.1.2.11]
 
-* The Adamantite and Aurichalcum Shields show their texture instead of a purple and black missing texture (FTBTeam/FTB-Modpack-Issues#13842)
+* The Adamantite and Aurichalcum Shields show their texture instead of a purple and black missing texture, and glow like the rest of their gear (FTBTeam/FTB-Modpack-Issues#13842)
 
 ## [26.1.2.10]
 

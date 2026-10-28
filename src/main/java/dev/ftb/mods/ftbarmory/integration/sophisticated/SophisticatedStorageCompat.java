@@ -11,7 +11,7 @@ public final class SophisticatedStorageCompat {
     private SophisticatedStorageCompat() {}
 
     public static void init() {
-        register(Metal.ADAMANTITE, 32.0);
+        register(Metal.ADAMANTITE, 36.0);
         register(Metal.AETERNIUM, 48.0);
         register(Metal.AURICHALCUM, 64.0);
     }

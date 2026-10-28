@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [26.1.2.11]
 
+* Adamantite, Aeternium and Aurichalcum Productivity Upgrades work in a Mystian Apiary Controller as productivity tiers above Omega, at 3.2x, 3.8x and 4.5x output, doubling with each extra upgrade up to four (FTBTeam/FTB-Modpack-Issues#13795)
 * The Adamantite and Aurichalcum Shields show their texture instead of a purple and black missing texture, and glow like the rest of their gear (FTBTeam/FTB-Modpack-Issues#13842)
 * The Adamantite Storage Stack Upgrade multiplies by 36 and the Adamantite Backpack Stack Upgrade by 20, so they are now a step above netherite instead of matching it (FTBTeam/FTB-Modpack-Issues#13782)
 

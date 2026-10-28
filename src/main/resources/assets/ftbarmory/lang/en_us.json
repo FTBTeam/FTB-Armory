@@ -141,6 +141,7 @@
   "item.ftbarmory.overclocker.energy": "Energy use x%s per upgrade",
   "item.ftbarmory.overclocker.limit": "Up to 4 overclockers count per machine, strongest first",
   "item.ftbarmory.productivity_upgrade.tooltip": "Adds %s production rolls in an Advanced Beehive",
+  "item.ftbarmory.productivity_upgrade.tooltip.mystian": "%sx output in a Mystian Apiary, doubling with each extra one up to four",
   "research.ftbarmory.esoteric_metallurgy.title": "Esoteric Metallurgy",
   "research.ftbarmory.esoteric_metallurgy.stage_0": "Adamantite, Aeternium and Aurichalcum hold far more than the essentia of common metal. Bring one ingot of each to study how they answer to the infusion altar.",
   "research.ftbarmory.esoteric_metallurgy.stage_1": "The three metals take to thaumaturgy readily. Each one makes wand caps that lower vis costs and rods that hold more vis than silverwood. Aeternium caps give the largest discount and Aurichalcum rods hold the most. Aurichalcum also binds a focus of greater depth and forms pillars and pedestals that steady and quicken an infusion. Aeternium lines an essentia smelter that wastes almost nothing. Blocks of all three set under the corners of an infusion matrix improve it: Adamantite steadies it, Aeternium makes it cheaper and Aurichalcum makes it faster.",

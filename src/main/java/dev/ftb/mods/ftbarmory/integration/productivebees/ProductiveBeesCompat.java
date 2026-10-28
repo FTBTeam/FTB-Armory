@@ -8,12 +8,14 @@ import dev.ftb.mods.ftbarmory.integration.Compat;
 import dev.ftb.mods.ftbarmory.registry.ModItems;
 import java.util.ArrayList;
 import java.util.List;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.registries.DeferredItem;
 
 public final class ProductiveBeesCompat {
     private static final List<DeferredItem<ProductivityUpgradeItem>> UPGRADES = new ArrayList<>();
+    private static final int MYSTIAN_FIRST_TIER = 5;
 
     private ProductiveBeesCompat() {}
 
@@ -46,5 +48,19 @@ public final class ProductiveBeesCompat {
             bonus += upgradeable.getUpgradeCount(upgrade.get()) * upgrade.get().productivity;
         }
         return bonus;
+    }
+
+    public static int mystianTier(ItemStack stack) {
+        for (int i = 0; i < UPGRADES.size(); i++) {
+            if (stack.is(UPGRADES.get(i).get())) {
+                return MYSTIAN_FIRST_TIER + i;
+            }
+        }
+        return 0;
+    }
+
+    public static double mystianMultiplier(int tier) {
+        int index = tier - MYSTIAN_FIRST_TIER;
+        return index >= 0 && index < UPGRADES.size() ? UPGRADES.get(index).get().productivity : 0.0;
     }
 }

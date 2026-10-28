@@ -7,6 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.TooltipDisplay;
+import net.neoforged.fml.ModList;
 
 public class ProductivityUpgradeItem extends UpgradeItem {
     public final double productivity;
@@ -26,6 +27,11 @@ public class ProductivityUpgradeItem extends UpgradeItem {
         builder.accept(Component.translatable(
                         "item.ftbarmory.productivity_upgrade.tooltip", String.format("%.1f", productivity))
                 .withStyle(ChatFormatting.GOLD));
+        if (ModList.get().isLoaded("mystianapiary")) {
+            builder.accept(Component.translatable(
+                            "item.ftbarmory.productivity_upgrade.tooltip.mystian", String.format("%.1f", productivity))
+                    .withStyle(ChatFormatting.GOLD));
+        }
         super.appendHoverText(stack, context, display, builder, flag);
     }
 }

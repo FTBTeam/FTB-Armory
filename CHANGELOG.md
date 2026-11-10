@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [26.1.2.12]
+
+* Block breakers and other machines that mine with a tool, like the Just Dire Things Block Breaker, can mine Adamantite, Aeternium and Aurichalcum ore and get its drops when they hold a pickaxe that can mine it by hand (FTBTeam/FTB-Modpack-Issues#14009)
+
 ## [26.1.2.11]
 
 * An FTB Industrial Contraptions Quarry with an Efficiency pickaxe in its tool slot uses more power to match: the 10% speed per Efficiency level now also adds 10% power use per level (FTBTeam/FTB-Modpack-Issues#13833)

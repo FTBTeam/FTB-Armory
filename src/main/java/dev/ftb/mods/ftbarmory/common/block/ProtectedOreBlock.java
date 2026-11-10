@@ -49,7 +49,8 @@ public final class ProtectedOreBlock extends Block {
         }
         BlockPos pos = BlockPos.containing(origin);
         if (!QuarryMiningContext.allows(player, state, pos)
-                && (player.isFakePlayer() || player.isSpectator() || !player.isWithinBlockInteractionRange(pos, 1.0))) {
+                && (player.isSpectator()
+                        || (!player.isFakePlayer() && !player.isWithinBlockInteractionRange(pos, 1.0)))) {
             return List.of();
         }
         return super.getDrops(state, params);

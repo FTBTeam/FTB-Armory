@@ -28,9 +28,7 @@ public final class HarvestEvents {
     public static void onHarvestCheck(PlayerEvent.HarvestCheck event) {
         BlockState state = event.getTargetBlock();
         if (state.is(ModTags.PROTECTED_ORES)
-                && (event.getEntity().isFakePlayer()
-                        || !OreMiningRules.hasMiningTool(
-                                state, event.getEntity().getMainHandItem()))) {
+                && !OreMiningRules.hasMiningTool(state, event.getEntity().getMainHandItem())) {
             event.setCanHarvest(false);
             return;
         }

@@ -28,8 +28,11 @@ public final class OreMiningRules {
         if (QuarryMiningContext.allows(player, state, pos)) {
             return true;
         }
-        if (player.isFakePlayer() || player.isSpectator()) {
+        if (player.isSpectator()) {
             return false;
+        }
+        if (player.isFakePlayer()) {
+            return hasMiningTool(state, player.getMainHandItem());
         }
         // Match the reach tolerance used by the server's normal block-breaking check.
         return player.isWithinBlockInteractionRange(pos, 1.0)
